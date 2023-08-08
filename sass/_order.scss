@@ -1,0 +1,80 @@
+.main_order {
+  padding-top: 75px;
+  .order {
+    &_history {
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: 0.01em;
+      text-align: left;
+      padding-bottom: 32px;
+      border-bottom: 1px solid #eee;
+    }
+    &_boxs {
+      margin-top: 32px;
+      padding: 16px;
+      background-color: #fff;
+    }
+    &_no {
+      padding: 16px;
+      &-title {
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0.01em;
+        color: rgba(60, 66, 66, 1);
+         gap:14.53px;
+      }
+    }
+    &_desc {
+      padding-top: 10px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: calc(27 / 16);
+      letter-spacing: 0em;
+      color: rgba(133, 133, 138, 1);
+    }
+    &_list {
+      display: flex;
+      flex-direction: column;
+       gap: 24px;
+        padding-top: 16px;
+         border-top: 1px solid #eee;
+    }
+    &-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 16px;
+      box-shadow: rgba(0, 0, 0, 0.06) 0px 4px 12px;
+    }
+    &-thumb {
+      align-items: center;
+      display: flex;
+      gap: 32px;
+      & > img {
+        width: 75px;
+        height: 75px;
+        object-fit: cover;
+      }
+      .order_content {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        color: rgba(51, 65, 85, 1);
+        letter-spacing: 0em;
+         
+        text-align: left;
+         display: flex;
+          flex-direction: column;
+           gap:4px 0px
+      }
+       .order_price {
+         
+        color: rgba(51, 65, 85, 1);
+       }
+    }
+  }
+}

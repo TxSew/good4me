@@ -97,6 +97,30 @@ body {
     border-radius: 4px;
     color: #fa541c; }
 
+.btn_sortPage {
+  display: flex;
+  justify-content: center;
+  gap: 8px; }
+  .btn_sortPage .next,
+  .btn_sortPage .prev {
+    background-color: #eeeeee; }
+    .btn_sortPage .next img,
+    .btn_sortPage .prev img {
+      width: 3.9px;
+      height: 7.29px;
+      object-fit: contain; }
+  .btn_sortPage > button {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px; }
+    .btn_sortPage > button > a {
+      display: inline-block;
+      text-decoration: none;
+      color: #3d3737; }
+
 .header__top {
   padding: 16px 0;
   background-color: #fa541c; }
@@ -176,7 +200,7 @@ body {
     display: flex;
     align-items: center; }
   .header__bottom-input {
-    padding: 0 7px;
+    padding: 0 15px;
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -612,6 +636,8 @@ body {
     .category_products .apple .box_cards .box_card-content {
       gap: 8px 0px;
       flex: 1; }
+    .category_products .apple .box_cards .box_card {
+      margin: 8px 8px; }
 
 .main_payment {
   background-color: #fafafa; }
@@ -690,5 +716,84 @@ body {
         font-weight: 500;
         line-height: 19px;
         width: 60%; }
+    .payment_details-title {
+      color: #3d3737; }
+
+.main_order {
+  padding-top: 75px; }
+  .main_order .order_history {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #eee; }
+  .main_order .order_boxs {
+    margin-top: 32px;
+    padding: 16px;
+    background-color: #fff; }
+  .main_order .order_no {
+    padding: 16px; }
+    .main_order .order_no-title {
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: 0.01em;
+      color: #3c4242;
+      gap: 14.53px; }
+  .main_order .order_desc {
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: calc(27 / 16);
+    letter-spacing: 0em;
+    color: #85858a; }
+  .main_order .order_list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 16px;
+    border-top: 1px solid #eee; }
+  .main_order .order-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 4px 12px; }
+  .main_order .order-thumb {
+    align-items: center;
+    display: flex;
+    gap: 32px; }
+    .main_order .order-thumb > img {
+      width: 75px;
+      height: 75px;
+      object-fit: cover; }
+    .main_order .order-thumb .order_content {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16px;
+      color: #334155;
+      letter-spacing: 0em;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      gap: 4px 0px; }
+    .main_order .order-thumb .order_price {
+      color: #334155; }
+
+.mycard_heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-align: left; }
+  .mycard_heading > span {
+    color: #fa541c; }
 
 /*# sourceMappingURL=style.css.map */

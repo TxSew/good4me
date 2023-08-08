@@ -37,6 +37,7 @@
   }
   &_title {
     text-align: center;
+   
     & > img {
       margin: 0 auto;
       width: 80px;
@@ -90,5 +91,8 @@
         width: 60%;
       }
     }
+     &-title {
+        color: rgba(61, 55, 55, 1);
+     }
   }
 }
