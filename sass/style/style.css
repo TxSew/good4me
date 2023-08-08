@@ -784,16 +784,108 @@ body {
     .main_order .order-thumb .order_price {
       color: #334155; }
 
-.mycard_heading {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 28px;
-  letter-spacing: 0.01em;
-  text-align: left; }
-  .mycard_heading > span {
-    color: #fa541c; }
+.main_mycard {
+  background: #fafafa; }
+
+.mycard {
+  padding-top: 40.8px; }
+  .mycard_items {
+    width: 840px; }
+  .mycard_infomation {
+    flex: 1;
+    background-color: #fff;
+    margin-top: 16px; }
+  .mycard_heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eee;
+    text-align: left; }
+    .mycard_heading > span {
+      color: #fa541c; }
+  .mycard_infomation {
+    padding: 16px; }
+    .mycard_infomation > h3 {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0.01em;
+      text-align: left;
+      color: #3d3737;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #eee;
+      background-color: #fff; }
+  .mycard_price {
+    font-size: 16px;
+    color: #3d3737;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left; }
+  .mycard_count {
+    display: flex;
+    align-items: center;
+    gap: 7px; }
+    .mycard_count .prev_mycard {
+      background-color: #ccc;
+      color: black; }
+    .mycard_count .next_mycard {
+      background-color: black;
+      color: #fff; }
+    .mycard_count > button {
+      width: 24px;
+      height: 24px;
+      border-radius: 3px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .mycard_wrapper {
+    width: 100%;
+    margin-top: 32px;
+    display: flex;
+    gap: 0px 32px; }
+  .mycard-item {
+    background-color: #fff;
+    width: 100%;
+    margin-top: 16px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    gap: 0px 79px; }
+    .mycard-item-checked {
+      display: flex;
+      align-items: center; }
+      .mycard-item-checked > input {
+        width: 24px;
+        height: 24px;
+        border-radius: 3px; }
+    .mycard-item-thumb {
+      display: flex;
+      align-items: center;
+      margin-left: 18px; }
+      .mycard-item-thumb > img {
+        width: 75px;
+        height: 75px;
+        object-fit: cover; }
+      .mycard-item-thumb-content {
+        margin-left: 16px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left; }
+        .mycard-item-thumb-content > span {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 16px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #85858a;
+          margin-top: 4px; }
 
 /*# sourceMappingURL=style.css.map */
