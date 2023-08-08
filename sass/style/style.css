@@ -793,8 +793,6 @@ body {
 
 .mycard {
   padding-top: 40.8px; }
-  .mycard_items {
-    width: 840px; }
   .mycard_infomation {
     flex: 1;
     background-color: #fff;
@@ -1065,9 +1063,6 @@ body {
   .mycard_price {
     display: none; }
 
-  .mycard_items {
-    max-width: 369px; }
-
   .category_navbar {
     display: none; }
 
@@ -1075,6 +1070,9 @@ body {
     margin: 0 auto; }
 
   .fashion_thumb {
-    padding: 24px; } }
+    padding: 24px; }
+
+  .mycard_remove {
+    margin-left: auto; } }
 
 /*# sourceMappingURL=style.css.map */
