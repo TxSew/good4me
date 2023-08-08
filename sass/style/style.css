@@ -918,9 +918,9 @@ body {
       .mycard-item-checked > input {
         width: 24px;
         height: 24px;
-        border-radius: 6px;
-        opacity: 1; }
+        border-radius: 6px; }
     .mycard-item-thumb {
+      position: relative;
       display: flex;
       align-items: center;
       margin-left: 18px; }
@@ -943,6 +943,10 @@ body {
           text-align: left;
           color: #85858a;
           margin-top: 4px; }
+
+input[type="checkbox"]:checked + .mycard-item-thumb::after {
+  opacity: 1;
+  display: block; }
 
 @media screen and (max-width: 1367px) {
   .container {
@@ -1063,9 +1067,6 @@ body {
   .mycard_price {
     display: none; }
 
-  .category_navbar {
-    display: none; }
-
   .trending__image > img {
     margin: 0 auto; }
 
@@ -1073,6 +1074,17 @@ body {
     padding: 24px; }
 
   .mycard_remove {
-    margin-left: auto; } }
+    margin-left: auto; }
+
+  .category_wrapper {
+    position: relative; }
+
+  .category_navbar {
+    display: none;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    padding: 0;
+    height: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

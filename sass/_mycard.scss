@@ -150,18 +150,23 @@
     &-checked {
       display: flex;
       align-items: center;
+      
       & > input {
         width: 24px;
         height: 24px;
         border-radius: 6px;
-         opacity: 1;
       }
     }
+
     &-thumb {
       
-      display: flex;
-      align-items: center;
-      margin-left: 18px;
+       position: relative;
+       display: flex;
+       align-items: center;
+       margin-left: 18px;
+     
+       
+      
       & > img {
         width: 75px;
         height: 75px;
@@ -186,4 +191,18 @@
       }
     }
   }
+}
+
+
+
+
+input[type="checkbox"]  {
+  // display: none;
+   
+}
+
+input[type="checkbox"]:checked  + .mycard-item-thumb::after {
+      
+  opacity: 1;
+   display: block;
 }

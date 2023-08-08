@@ -129,9 +129,7 @@
   .mycard_price {
     display: none;
   }
-  .category_navbar {
-    display: none;
-  }
+  
   .trending__image > img {
     margin: 0 auto;
   }
@@ -141,5 +139,16 @@
   .mycard_remove{
      margin-left: auto;
   }
+  .category_wrapper {
+     position: relative;
+  }
+  .category_navbar {
+    display: none;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    padding: 0;
+    height: 100%;
+}
 
 }
