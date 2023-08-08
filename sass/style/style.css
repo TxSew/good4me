@@ -95,7 +95,8 @@ body {
     text-decoration: none;
     border: 1px solid #fa541c;
     border-radius: 4px;
-    color: #fa541c; }
+    color: #fa541c;
+    cursor: pointer; }
 
 .btn_sortPage {
   display: flex;
