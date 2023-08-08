@@ -105,4 +105,17 @@
         padding-top: 24px;
         background-color: #fff1f0;
     }
+
+
+
+    //  my card
+    .mycard_wrapper {
+         display: block;
+    }
+    .mycard_priceTotal ,.mycard_priceTotal , .mycard_count , .mycard_price{
+         display: none;
+    }
+    .mycard_items {
+        max-width: 369px;
+    }
    }
