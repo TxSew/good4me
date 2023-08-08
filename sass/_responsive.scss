@@ -44,5 +44,17 @@
     .coppyright {
          display: none;
     }
-    
+    .trending__wrapper {
+         display: block;
+    }
+    .header__bottom-input {
+         display: none;
+    } 
+    .fashion_thumb_image {
+        position: absolute;
+        max-width: 151px;
+        max-height: 219px;
+        bottom: 14%;
+        right: 1px;
+    }
    }
