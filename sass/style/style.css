@@ -1053,6 +1053,15 @@ body {
     display: none; }
 
   .mycard_items {
-    max-width: 369px; } }
+    max-width: 369px; }
+
+  .category_navbar {
+    display: none; }
+
+  .trending__image > img {
+    margin: 0 auto; }
+
+  .fashion_thumb {
+    padding: 24px; } }
 
 /*# sourceMappingURL=style.css.map */
