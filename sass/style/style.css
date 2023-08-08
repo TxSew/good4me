@@ -531,6 +531,8 @@ body {
       padding-right: 66.25px; }
       .footer_bottom > p > span {
         color: #fa541c; }
+    .footer_bottom-pay {
+      margin-left: auto; }
 
 .category {
   background-color: #fafafa;
@@ -963,7 +965,8 @@ body {
   .fashion_thumbs {
     display: block; }
 
-  .fashion_thumb, .apple .box_cards .box_card {
+  .fashion_thumb,
+  .apple .box_cards .box_card {
     width: 100%;
     margin-bottom: 20px; }
 
@@ -1021,7 +1024,8 @@ body {
   .footer .more-info {
     margin-top: 30px; }
 
-  .trending_desc, .trending_title {
+  .trending_desc,
+  .trending_title {
     font-size: 18px; }
 
   .trending_content {
@@ -1046,10 +1050,19 @@ body {
     padding-top: 24px;
     background-color: #fff1f0; }
 
+  .footer_bottom-pay {
+    margin-left: auto;
+    width: 200px; }
+    .footer_bottom-pay > img {
+      height: 30px; }
+
   .mycard_wrapper {
     display: block; }
 
-  .mycard_priceTotal, .mycard_priceTotal, .mycard_count, .mycard_price {
+  .mycard_priceTotal,
+  .mycard_priceTotal,
+  .mycard_count,
+  .mycard_price {
     display: none; }
 
   .mycard_items {
