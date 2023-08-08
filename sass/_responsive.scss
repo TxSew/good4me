@@ -57,4 +57,52 @@
         bottom: 14%;
         right: 1px;
     }
+    .see_more_wrapper .container::before {
+        position: absolute;
+        content: "";
+        height: 0.555px;
+        width: 30%;
+        background-color: #fa541c;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .see_more_wrapper .container::after {
+        position: absolute;
+        content: "";
+        height: 0.555px;
+        width: 30%;
+        background-color: #fa541c;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .footer .more-info {
+         margin-top: 30px;
+    }
+    .trending_desc, .trending_title {
+         font-size: 18px;
+    }
+    .trending_content {
+         padding: 73px 0px;
+    }
+    .apple .box_cards .box_card-content {
+        padding: 10px 0px 8px 10px;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px 0px;
+    }
+    .apple .box_cards .box_card-image {
+        max-width: 245px;
+        height: 216px;
+    }
+    .apple .box_cards .box_card-circle {
+         padding: 5.75px;
+    }
+    .footer {
+        margin-top: 36px;
+        padding-top: 24px;
+        background-color: #fff1f0;
+    }
    }
