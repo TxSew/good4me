@@ -1,0 +1,48 @@
+ @media screen and (max-width: "1367px") {
+     .container {
+         max-width: 975px;
+     }
+     .container_fluid {
+         max-width: 995px;
+     }
+     .footer__col:first-child {
+         max-width: 311.25px;
+     }
+     .footer .about-us {
+         max-width: 311.25px;
+     }
+ }
+  @media screen and (max-width: "1023px"){
+    .container {
+        max-width: 830px;
+    }
+    .fashion_thumbs {
+        display: block;
+    }
+    .fashion_thumb ,.apple .box_cards .box_card {
+         width: 100%;
+          margin-bottom: 20px;
+    }
+    .apple .box_cards .box_card-content {
+         flex: 1;
+    }
+    .header__top {
+         display: none;
+    }
+    .header__bottom-nav > ul {
+         display: none;
+    }
+    .apple .box_cards {
+         display: block;
+    }
+  }
+  
+   @media screen  and (max-width: "820px"){
+    .footer_wrapper {
+         display: block;
+    }
+    .coppyright {
+         display: none;
+    }
+    
+   }
